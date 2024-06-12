@@ -1,0 +1,92 @@
+@media (max-width:1030px){
+
+ /* slider  */
+ #home .banner1,#home .banner2,#home .banner3{
+    background-position: center;
+    min-height: 500px;
+ }
+ #home .banner1 .home-banner-text h1{
+    font-size: 100px; 
+    left: 14%;    
+}
+#home .banner1 .home-banner-text h6{
+    font-size: 14px;  
+    left: 29%;   
+}
+}
+
+
+@media (max-width:991px){
+
+
+ 
+}
+
+@media (max-width:767px){
+
+     /* slider */
+     #home .banner1,#home .banner2,#home .banner3{
+        background-position: center;
+        min-height: 400px;
+     }
+     #home .banner1 .home-banner-text h1{
+        font-size: 80px; 
+        left: 12%;    
+        letter-spacing: 35px;
+        top: 13%;
+    }
+    #home .banner1 .home-banner-text h6{
+        font-size: 11px;  
+        left: 24%;
+        top: 11%;   
+    }
+}
+
+
+@media (max-width:430px){
+    .navbar-brand img{
+        width: 100px;
+    }
+    /* slider */
+    #home .banner1,#home .banner2,#home .banner3{
+        background-position: center;
+        min-height: 250px;
+     }
+     #home .banner1 .home-banner-text h1{
+        font-size: 40px; 
+        left: 18%;    
+        letter-spacing: 15px;
+        top: 16%;
+    }
+    #home .banner1 .home-banner-text h6{
+        font-size: 8px;  
+        left: 27%;
+        top: 13%;   
+        letter-spacing: 5px;
+    }
+}    
+
+
+@media (max-width:375px){
+    .navbar-brand img{
+        width: 100px;
+    }
+    /* slider */
+    #home .banner1,#home .banner2,#home .banner3{
+        background-position: center;
+        min-height: 250px;
+     }
+     #home .banner1 .home-banner-text h1{
+        font-size: 30px; 
+        left: 18%;    
+        letter-spacing: 15px;
+        top: 19%;
+    }
+    #home .banner1 .home-banner-text h6{
+        font-size: 7px;  
+        left: 24%;
+        top: 15%;   
+        letter-spacing: 5px;
+    }
+}    
+

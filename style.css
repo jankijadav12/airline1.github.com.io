@@ -1,0 +1,124 @@
+:root{
+    --primary-color:rgb(58, 100, 159);
+    --secondary-color:white;
+    --text-black:black;
+    --dark-color:rgb(152,151,151);
+    --gray-color:rgb(235,235,235);
+    --light-color:rgb(11, 81, 138);
+    --primary-font:poppins;
+    --secondary-font:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+/* NAVBAR */
+#nav
+{
+    background-color: var(--primary-color);
+    position: fixed;
+}
+.navbar-brand img{
+    width: 150px;
+}
+#toggle,#close{
+    border: none;
+    font-size: 18px;
+    box-shadow: none;
+}
+.offcanvas-body,.offcanvas-header{
+    background-color:var(--primary-color);
+}
+/* dropdown */
+.nav-item .dropdown-menu,.nav-item .dropdown-menu{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    border: none;
+    margin-left: 5%;
+    
+}
+.nav-item .dropdown-menu a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 10px 17px;
+}
+.nav-item .dropdown-menu a:hover{
+    color: var(--light-color);
+}
+/* hover underline */
+#link
+{
+    font-weight: 400;
+    position: relative;
+    color: var(--secondary-color);
+    padding: 7px 10px;
+    font-size: 15px;
+    font-family: var(--primary-font);
+}
+@media (min-width:992px)
+{
+#link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: var(--secondary-color);
+    visibility: hidden;
+    transition: 0.2s ease-in-out;
+}
+#link:hover::before,#link.active::before{
+    width: 100%;
+    visibility: visible;
+    
+}
+}
+
+/* slider */
+#home .banner1{
+    /* background: linear-gradient(rgba(0,0,0,0.325),rgba(9, 4, 75, 0.325)),url(images/air4.jpeg)no-repeat; */
+    background-image: url(images/air4.jpeg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    position: relative;
+}
+#home .banner2{
+    background-image: url(images/slider.jpg);
+    background-size: cover;
+     background-position: center;
+     min-height: 600px;
+     position: relative;
+}
+#home .banner3{
+    background-image: url(images/slider3.jpg);
+    background-size: cover;
+     background-position: center;
+     min-height: 600px;
+     position: relative;
+}
+#home .banner1 .home-banner-text h1{
+    position: absolute;
+    background: linear-gradient(rgba(13, 16, 107, 0.623),rgba(255, 255, 255, 0.349));
+    background-clip: text;
+    color: transparent;
+    top: 12%;
+    left: 19%;
+    font-family: roboto;
+    font-weight: 700;
+    font-size: 120px;
+    letter-spacing: 45px;
+}
+#home .banner1 .home-banner-text h6{
+    position: absolute;
+    top: 10%;
+    left: 31%;
+    font-family: roboto;
+    letter-spacing: 13px;
+    font-weight: bold;
+}
