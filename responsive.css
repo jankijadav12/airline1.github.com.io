@@ -67,6 +67,16 @@
            top: 13%;   
            letter-spacing: 5px;
        }
+       /* ticket */
+       .ticket{
+        background-color: var(--gray-color);
+        font-size: 15px;
+        position: relative;
+        left: 0%;
+       }
+       input::placeholder{
+        font-size: 15px;
+       }
    }    
    
    

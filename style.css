@@ -135,10 +135,15 @@ body{
 .ticket{
     background-color: var(--gray-color);
     font-size: 18px;
-    
+    position: absolute;
+    top: 80%;
+    left: 7%;
 
 }
 .btn-search{
     background-color: var(--primary-color);
     border: none;
+}
+input:hover{
+    border: solid 1px rgb(11, 81, 138);
 }
