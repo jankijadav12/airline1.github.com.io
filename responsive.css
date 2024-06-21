@@ -23,6 +23,7 @@
     font-size: 15px;
     width: 100%;
 }
+
    
    
    
@@ -30,8 +31,10 @@
    
    @media (max-width:991px){
    
-   
-    
+   /* .aircraft-p{
+    display: none;
+   }
+     */
    }
    
    @media (max-width:767px){
@@ -98,6 +101,58 @@
         width: 85%;
         font-size: 12px;
     }
+
+      /* aircraft */
+
+      #aircraft h1{
+        font-weight: 700;
+        font-size: 23px;
+        margin-top: 5%;
+        font-family: poppins;
+        text-align: center;
+    }
+      #aircraft p{
+        
+        font-size: 10px;
+        font-family: poppins;
+        text-align: center;
+    }
+    #aircharter h1{
+        font-weight: 700;
+        font-size: 23px;
+        margin-top: 10%;
+        font-family: poppins;
+        text-align: center;
+    }
+    #aircharter p{
+        font-size: 12px;
+    }
+    #aircharter .aircraft-p{
+        
+        font-size: 10px;
+        font-family: poppins;
+        text-align: center;
+    }
+    #script h2{
+        color: var(--primary-color);
+        font-weight: 700;
+        font-family: poppins;
+        font-size: 19px;
+    }
+    #script a{
+        font-size: 12px;
+        margin-left: 84%;
+        color: var(--primary-color);
+        font-weight: bold;
+        text-decoration: none;
+    }
+    #vdo video{
+        margin-top: 6%;
+        margin-left: 3%;
+        height: 200px;
+    }
+    
+
       
    }    
    
