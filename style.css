@@ -222,8 +222,8 @@ input:hover{
 #our-charter{
     margin-top: 5%;
 }
-#aircharter .row{
-    margin-top: 10%;
+#our-charter #aircharter .chart1{
+    margin-top: 5%;
 }
 #aircharter h1{
     font-weight: 700;
@@ -256,8 +256,17 @@ input:hover{
     font-weight: bold;
     text-decoration: none;
 }
+#script a:hover{
+    color: var(--text-black);
+}
 #aircharter .chart1{
     margin-top: 3%;
+}
+#charter-img{
+    filter: opacity(80%);
+}
+#charter-img:hover{
+    filter: opacity(100%);
 }
 
 /* video */
@@ -286,7 +295,7 @@ footer a{
     padding: 0px 4px;
 }
 #links{
-    margin-top: 5%;
+    margin-top: 2%;
 }
 #links ul li{
     text-decoration: none;
@@ -299,10 +308,13 @@ footer a{
     text-decoration: none;
     list-style-type: none;
 }
+#links ul li a:hover{
+   color: var(--text-black);
+}
 #copyright{
     background-color: var(--dark-color);
     text-align: center;
-    color: var(--secondary-color);
+    color: var(--text-black);
     padding: 5px;
     
 }
