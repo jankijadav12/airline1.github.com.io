@@ -55,6 +55,7 @@
            left: 24%;
            top: 11%;   
        }
+       
    }
    
    
@@ -98,46 +99,43 @@
        }
        #intro p{
         text-align: justify;
-        width: 85%;
+        width: 88%;
         font-size: 12px;
-    }
+       }
+       #intro button{
+           background-color: var(--primary-color);
+           border: none;
+           color: white;
+           padding: 5px;
+           font-size: 10px;
+           font-family: poppins;
+           font-weight: 500;
+       }
 
       /* aircraft */
 
-      #aircraft h1{
+      #aircraft h1,#aircharter h1, #why-us h1,#aircraft-type h1{
         font-weight: 700;
         font-size: 23px;
         margin-top: 5%;
         font-family: poppins;
         text-align: center;
     }
-      #aircraft p{
+      #aircraft p,#aircharter p, #why-us p{
         
         font-size: 10px;
         font-family: poppins;
         text-align: center;
     }
-    #aircharter h1{
-        font-weight: 700;
-        font-size: 23px;
-        margin-top: 10%;
-        font-family: poppins;
-        text-align: center;
-    }
-    #aircharter p{
-        font-size: 12px;
-    }
-    #aircharter .aircraft-p{
-        
-        font-size: 10px;
-        font-family: poppins;
-        text-align: center;
-    }
+    
     #script h2{
         color: var(--primary-color);
         font-weight: 700;
         font-family: poppins;
         font-size: 19px;
+    }
+    #script p{
+        text-align: justify;
     }
     #script a{
         font-size: 12px;
@@ -151,13 +149,58 @@
         margin-left: 3%;
         height: 200px;
     }
+    /* counter */
+    #counter h1{
+        font-size: 15px;
+    }
+    #counter p{
+        font-size: 10px;
+    }
     /* footer */
     footer #link1{
         margin-left: 10%;
     }
-    
+    /* contact */
+    #contact{
+        margin-top: 22%;
+    }
+    #contact h1{
+        font-weight: 700;
+        font-size: 23px;
+        font-family: poppins;
+        text-align: center;
+    }
+    #contact p{
+        
+        font-size: 12px;
+        font-family: poppins;
+        text-align: center;
+    }
+    #address ul li{
+        text-decoration: none;
+        list-style-type: none;
+        font-family: poppins;
+        font-size: 14px;
+        padding: 10px;
+    }
 
-      
+    /* homepage */
+    #home1{
+        margin-top: 20%;
+    }
+    /* piston */
+    #aircraft-type{
+        margin-top: 22%;
+    }
+    /* more info */
+    #piston-1{
+        margin-top: 22%;
+        font-family: poppins;
+    }
+    /* safety */
+    #safety{
+        margin-top: 20%;
+     }
    }    
    
    

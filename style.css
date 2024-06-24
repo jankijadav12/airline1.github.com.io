@@ -16,6 +16,21 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+/* main headings */
+
+#aircraft h1,#aircharter h1,#why-us h1,#aircraft-type h1{
+    font-weight: 700;
+    font-size: 33px;
+    font-family: poppins;
+    text-align: center;
+}
+#aircraft p,#aircharter p,#why-us p{
+    
+    font-size: 15px;
+    font-family: poppins;
+    text-align: center;
+}
+
 /* NAVBAR */
 #nav
 {
@@ -83,28 +98,28 @@ body{
 /* slider */
 #home .banner1{
     
-    background-image: url(images/air4.jpeg);
+    background-image: url(images/slider1.jpeg);
     background-size: cover;
     background-position: center;
     min-height: 600px;
     position: relative;
 }
 #home .banner2{
-    background: linear-gradient(rgb(58, 100, 159),rgba(255, 255, 255, 0)),url(images/kamil-pietrzak-09u69eLpfeY-unsplash.jpg)no-repeat;
+    background: linear-gradient(rgb(58, 100, 159),rgba(255, 255, 255, 0)),url(images/slider2.jpg)no-repeat;
     background-size: cover;
      background-position: center;
      min-height: 600px;
      position: relative;
 }
 #home .banner3{
-    background: linear-gradient(rgba(58, 100, 159),rgba(255, 255, 255, 0)),url(images/kevin-hackert-UfTtn4fbeF8-unsplash.jpg)no-repeat;
+    background: linear-gradient(rgba(58, 100, 159),rgba(255, 255, 255, 0)),url(images/slider3.jpg)no-repeat;
     background-size: cover;
      background-position: center;
      min-height: 600px;
      position: relative;
 }
 #home .banner4{
-    background: linear-gradient(rgba(58, 100, 159),rgba(255, 255, 255, 0)),url(images/john-mcarthur-TWBkfxTQin8-unsplash.jpg)no-repeat;
+    background: linear-gradient(rgba(58, 100, 159),rgba(255, 255, 255, 0)),url(images/slider4.jpg)no-repeat;
     background-size: cover;
      background-position: center;
      min-height: 600px;
@@ -171,6 +186,17 @@ input:hover{
     margin-top: 1%;
     width: 520px;
 }
+#intro button{
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 10px;
+    font-family: poppins;
+    font-weight: 600;
+}
+#intro button:hover{
+    background-color: var(--light-color);
+}
 
 /* aircraft */
 #our-craft{
@@ -188,18 +214,6 @@ input:hover{
 }
 #aircraft .card img{
     height: 200px;
-}
-#aircraft h1{
-    font-weight: 700;
-    font-size: 33px;
-    font-family: poppins;
-    text-align: center;
-}
-#aircraft p{
-    
-    font-size: 15px;
-    font-family: poppins;
-    text-align: center;
 }
 #aircraft .card a{
     text-decoration: none;
@@ -224,18 +238,6 @@ input:hover{
 }
 #our-charter #aircharter .chart1{
     margin-top: 5%;
-}
-#aircharter h1{
-    font-weight: 700;
-    font-size: 33px;
-    font-family: poppins;
-    text-align: center;
-}
-#aircharter p{
-    
-    font-size: 15px;
-    font-family: poppins;
-    text-align: center;
 }
 #script{
     background-color: var(--gray-color);
@@ -262,21 +264,33 @@ input:hover{
 #aircharter .chart1{
     margin-top: 3%;
 }
-#charter-img{
-    filter: opacity(80%);
-}
 #charter-img:hover{
-    filter: opacity(100%);
+    filter: opacity(80%);
 }
 
 /* video */
-
+#vdo{
+    display: flex;
+    justify-content: center;
+}
 #vdo video{
     margin-top: 6%;
-    margin-left: 10%;
-    height: 600px;
+  
 }
-
+/* count */
+#counter{
+    text-align: center;
+    margin-top: 2%;
+    font-family: poppins;
+}
+#counter h1{
+    font-weight: 700;
+    color: rgb(134, 134, 134);
+}
+#counter p{
+    font-weight: 600;
+    font-size: 18px;
+}
 /* footer */
 
 footer{
@@ -317,4 +331,144 @@ footer a{
     color: var(--text-black);
     padding: 5px;
     
+}
+
+
+/* CONTACT WITH US */
+
+#contact{
+    margin-top: 10%;
+}
+#address{
+    background-color: var(--gray-color);
+    padding: 20px;
+    margin-top: 5%;
+    /* margin-left: 3%; */
+}
+#address ul li{
+    text-decoration: none;
+    list-style-type: none;
+    font-family: poppins;
+    font-size: 18px;
+    padding: 10px;
+}
+#contact h1{
+    font-weight: 700;
+    font-size: 33px;
+    font-family: poppins;
+    text-align: center;
+}
+#contact p{
+    
+    font-size: 15px;
+    font-family: poppins;
+    text-align: center;
+}
+#form{
+    background-color: rgb(94, 94, 94);
+    padding: 5%;
+    margin-top: 5%;
+}
+#map{
+    margin-top: 5%;
+}
+
+/* Home page */
+
+#home1{
+    margin-top: 12%;
+}
+#why-us{
+    margin-top: 6%;
+}
+#why-us .container{
+    text-align: center;
+    font-family: poppins;
+}
+#why-us img:hover{
+    transform: scale(1.1);
+}
+
+/* Piston */
+
+#aircraft-type{
+    margin-top: 9%;
+}
+#aircraft-type .card{
+    background-color: rgb(217, 217, 217);
+    border: none;
+    border-radius: 0;
+    margin-top: 7%;
+}
+#aircraft-type .card h3{
+    color: var(--primary-color);
+    font-family: poppins;
+}
+#aircraft-type .card-body{
+    padding: 30px;
+}
+#aircraft-type .card button{
+    background-color: rgb(120,120,120);
+    border: none;
+    padding: 8px;
+    color: white;
+    font-family: poppins;
+    font-size: 13px;
+}
+#aircraft-type .card button:hover{
+    background-color: rgb(165, 162, 162);
+}
+
+/* piston */
+
+#more-aircraft{
+    text-align: center;
+    font-family: poppins;
+    margin-top: 4%;
+}
+#more-aircraft .type1 .card{
+    background-color: var(--primary-color);
+    padding: 8px;
+    margin-top: 10%;
+    border: none;
+    border-radius: 0px;
+    font-size: 18px;
+}
+#more-aircraft .type2 .card{
+    background-color: rgb(120,120,120);
+    padding: 8px;
+    margin-top: 10%;
+    border: none;
+    border-radius: 0px;
+    font-size: 18px;
+}
+#more-aircraft .type2 .card:hover{
+    background-color: rgb(165, 162, 162)
+}
+#more-aircraft .type1 a,.type2 a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* more info */
+
+#piston-1{
+    margin-top: 10%;
+    font-family: poppins;
+}
+#piston-1 h2{
+    color: var(--primary-color);
+    margin-left: 4%;
+}
+#piston-1 img{
+    margin-top: 6%;
+}
+
+/* safety */
+
+#safety{
+   margin-top: 7%;
+}
+#safety h3{
+    color: var(--primary-color);
 }
